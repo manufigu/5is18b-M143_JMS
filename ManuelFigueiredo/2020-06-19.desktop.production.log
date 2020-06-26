@@ -1,0 +1,44 @@
+2020-06-19T13:38:56.682Z - info: [main] Received possible protocol arguments: 3
+2020-06-19T13:38:56.685Z - info: [main] Processing protocol url
+2020-06-19T13:38:59.442Z - info: [ui] [AppStore] loading 1 repositories from store
+2020-06-19T13:38:59.443Z - info: [ui] [AppStore] found account: manufigu (Manuel Figueiredo)
+2020-06-19T13:38:59.867Z - info: [ui] launching: 2.5.2 (Windows 10.0.19041)
+2020-06-19T13:38:59.868Z - info: [ui] execPath: 'C:\Users\manuf\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-19T13:39:00.409Z - info: [ui] Stats reported.
+2020-06-19T13:39:00.926Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.197s)
+2020-06-19T13:39:12.739Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/manufigu/5is18b-M143_JMS.git - manufigu (has token)
+2020-06-19T13:39:15.000Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/manufigu/5is18b-M143_JMS.git C:\Users\manuf\Documents\GitHub\5is18b-M143_JMS (took 2.180s)
+2020-06-19T13:39:15.063Z - info: [ui] [AppStore] adding repository at C:\Users\manuf\Documents\GitHub\5is18b-M143_JMS to store
+2020-06-19T13:39:15.324Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-19T13:39:16.742Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.502s)
+2020-06-19T13:41:00.690Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - manufigu (has token)
+2020-06-19T13:41:02.853Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.075s)
+2020-06-19T13:41:03.095Z - info: [ui] Background fetch for 2 repositories took 3.506sec
+2020-06-19T13:44:37.452Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.304s)
+2020-06-19T14:36:13.088Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/manufigu/5is18b-M143_JMS.git/': Could not resolve host: github.com
+
+2020-06-19T14:36:16.165Z - warn: [ui] fetchRepository: an error occurred for 'manufigu/5is18b-ManuelFigueiredo'
+TypeError: Failed to fetch
+2020-06-19T14:36:16.166Z - warn: [ui] getFetchPollInterval: failed for manufigu/5is18b-M143_JMS
+TypeError: Failed to fetch
+2020-06-19T14:36:16.168Z - warn: [ui] fetchRepository: an error occurred for 'manufigu/5is18b-ManuelFigueiredo'
+TypeError: Failed to fetch
+2020-06-19T14:36:16.169Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ManuelFigueiredo - manufigu (has token)
+2020-06-19T14:36:16.458Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/manufigu/5is18b-ManuelFigueiredo.git/': Could not resolve host: github.com
+
+2020-06-19T14:36:19.449Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+2020-06-19T14:36:19.885Z - warn: [ui] fetchRepository: an error occurred for 'manufigu/5is18b-M143_JMS'
+TypeError: Failed to fetch
+2020-06-19T14:36:19.889Z - warn: [ui] fetchRepository: an error occurred for 'manufigu/5is18b-M143_JMS'
+TypeError: Failed to fetch
+2020-06-19T14:36:19.891Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - manufigu (has token)
+2020-06-19T14:36:20.143Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/manufigu/5is18b-M143_JMS.git/': Could not resolve host: github.com
+
+2020-06-19T14:36:20.440Z - info: [ui] Background fetch for 2 repositories took 7.678sec
