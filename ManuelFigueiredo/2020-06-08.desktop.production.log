@@ -1,0 +1,29 @@
+2020-06-08T07:44:39.034Z - info: [main] Received possible protocol arguments: 2
+2020-06-08T07:44:39.036Z - error: [main] Malformed launch arguments received: C:\Users\manuf\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe,--squirrel-firstrun
+2020-06-08T07:44:39.637Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-06-08T07:44:39.663Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-08T07:44:39.669Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-08T07:44:40.135Z - info: [ui] launching: 2.5.2 (Windows 10.0.18363)
+2020-06-08T07:44:40.136Z - info: [ui] execPath: 'C:\Users\manuf\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-08T07:44:40.160Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-08T07:44:40.453Z - info: [ui] Opt in reported.
+2020-06-08T07:44:41.528Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.727s)
+2020-06-08T07:44:42.078Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-08T07:44:42.078Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-08T07:44:42.080Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=49fb923b-2a30-45c4-8f9d-3bc02e4b1e7a
+2020-06-08T07:44:42.091Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2020-06-08T07:44:42.275Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-08T07:44:57.438Z - info: [main] Received possible protocol arguments: 5
+2020-06-08T07:44:57.438Z - info: [main] Processing protocol url
+2020-06-08T07:44:57.457Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-06-08T07:44:57.463Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-08T07:44:57.559Z - info: [main] Received possible protocol arguments: 3
+2020-06-08T07:44:57.561Z - info: [main] Processing protocol url
+2020-06-08T07:44:58.329Z - info: [ui] [SignInStore] account resolved
+2020-06-08T07:44:58.330Z - info: [ui] [AppStore] adding account manufigu (Manuel Figueiredo) to store
+2020-06-08T07:44:58.333Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2020-06-08T07:44:58.395Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-08T07:44:58.852Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-08T07:44:59.940Z - info: [ui] [Welcome] advancing to step: UsageOptOut
+2020-06-08T07:45:00.922Z - info: [ui] Opt in reported.
+2020-06-08T07:45:00.932Z - info: [ui] [Welcome] no sign in step found. ignoring...

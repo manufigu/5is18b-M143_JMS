@@ -1,0 +1,36 @@
+2020-06-20T12:30:53.177Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/manufigu/5is18b-M143_JMS.git/': Could not resolve host: github.com
+
+2020-06-20T12:30:53.184Z - error: [ui] Error checking for updates
+Error: GitHub Desktop was not able to contact the update server. Ensure you have internet connectivity and try again.
+    at Object.t.parseError (file:///C:/Users/manuf/AppData/Local/GitHubDesktop/app-2.5.2/resources/app/renderer.js:29:128554)
+    at onAutoUpdaterError (file:///C:/Users/manuf/AppData/Local/GitHubDesktop/app-2.5.2/resources/app/renderer.js:12:110913)
+    at CallbacksRegistry.apply (electron/js2c/renderer_init.js:1804:29)
+    at electron/js2c/renderer_init.js:1603:21
+    at EventEmitter.<anonymous> (electron/js2c/renderer_init.js:1593:7)
+    at EventEmitter.emit (events.js:203:13)
+    at Object.onMessage (electron/js2c/renderer_init.js:2399:16)
+2020-06-20T12:30:55.799Z - warn: [ui] getFetchPollInterval: failed for manufigu/5is18b-M143_JMS
+TypeError: Failed to fetch
+2020-06-20T12:30:55.800Z - warn: [ui] fetchRepository: an error occurred for 'manufigu/5is18b-ManuelFigueiredo'
+TypeError: Failed to fetch
+2020-06-20T12:30:55.802Z - warn: [ui] fetchRepository: an error occurred for 'manufigu/5is18b-ManuelFigueiredo'
+TypeError: Failed to fetch
+2020-06-20T12:30:55.802Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-ManuelFigueiredo - manufigu (has token)
+2020-06-20T12:30:55.915Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/manufigu/5is18b-ManuelFigueiredo.git/': Could not resolve host: github.com
+
+2020-06-20T12:30:55.951Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+TypeError: Failed to fetch
+2020-06-20T12:30:56.211Z - warn: [ui] fetchRepository: an error occurred for 'manufigu/5is18b-M143_JMS'
+TypeError: Failed to fetch
+2020-06-20T12:30:56.212Z - warn: [ui] fetchRepository: an error occurred for 'manufigu/5is18b-M143_JMS'
+TypeError: Failed to fetch
+2020-06-20T12:30:56.212Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - manufigu (has token)
+2020-06-20T12:30:56.315Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/manufigu/5is18b-M143_JMS.git/': Could not resolve host: github.com
+
+2020-06-20T12:30:56.500Z - info: [ui] Background fetch for 2 repositories took 4.103sec

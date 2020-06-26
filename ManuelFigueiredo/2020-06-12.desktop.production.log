@@ -1,0 +1,16 @@
+2020-06-12T13:12:44.209Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-06-12T13:12:44.211Z - info: [ui] [AppStore] found account: manufigu (Manuel Figueiredo)
+2020-06-12T13:12:44.786Z - info: [ui] launching: 2.5.2 (Windows 10.0.18363)
+2020-06-12T13:12:44.786Z - info: [ui] execPath: 'C:\Users\manuf\AppData\Local\GitHubDesktop\app-2.5.2\GitHubDesktop.exe'
+2020-06-12T13:12:45.144Z - info: [ui] Stats reported.
+2020-06-12T13:12:46.160Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.805s)
+2020-06-12T13:12:50.650Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/manufigu/m143-testRepo.git - manufigu (has token)
+2020-06-12T13:12:55.125Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/manufigu/m143-testRepo.git C:\Users\manuf\Documents\GitHub\m143-testRepo (took 4.380s)
+2020-06-12T13:12:55.235Z - info: [ui] [AppStore] adding repository at C:\Users\manuf\Documents\GitHub\m143-testRepo to store
+2020-06-12T13:13:59.489Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/m143-testRepo' took 1.175s
+2020-06-12T13:14:44.960Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: m143-testRepo - manufigu (has token)
+2020-06-12T13:14:46.735Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.644s)
+2020-06-12T13:15:36.678Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/m143-testRepo' took 1.142s
+2020-06-12T13:15:42.693Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: m143-testRepo - manufigu (has token)
+2020-06-12T13:15:47.005Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.229s)
+2020-06-12T13:15:48.658Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.550s)
