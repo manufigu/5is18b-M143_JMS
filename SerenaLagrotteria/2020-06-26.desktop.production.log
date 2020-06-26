@@ -1,0 +1,162 @@
+2020-06-26T11:54:57.630Z - info: [main] Received possible protocol arguments: 2
+2020-06-26T11:54:57.631Z - error: [main] Malformed launch arguments received: C:\Users\seren\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe,--squirrel-firstrun
+2020-06-26T11:54:58.031Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-06-26T11:54:58.049Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-26T11:54:58.051Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-26T11:54:58.132Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-26T11:54:58.178Z - info: [ui] launching: 2.5.3 (Windows 10.0.18363)
+2020-06-26T11:54:58.178Z - info: [ui] execPath: 'C:\Users\seren\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe'
+2020-06-26T11:54:58.196Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-26T11:54:59.105Z - info: [ui] Opt in reported.
+2020-06-26T11:55:05.125Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2020-06-26T11:55:05.127Z - info: [ui] [SignInStore] initializing OAuth flow
+2020-06-26T11:55:05.127Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=de0e3c7e9973e1c4dd77&scope=repo%20user%20workflow&state=e8180755-414c-41ba-ac89-ce34bb9757b8
+2020-06-26T11:55:05.127Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2020-06-26T11:55:05.141Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-26T11:55:05.491Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-26T11:55:26.277Z - info: [main] Received possible protocol arguments: 5
+2020-06-26T11:55:26.277Z - info: [main] Processing protocol url
+2020-06-26T11:55:26.284Z - info: [ui] [Dispatcher] requesting authenticated user
+2020-06-26T11:55:26.292Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2020-06-26T11:55:26.330Z - info: [main] Received possible protocol arguments: 3
+2020-06-26T11:55:26.331Z - info: [main] Processing protocol url
+2020-06-26T11:55:27.261Z - info: [ui] [SignInStore] account resolved
+2020-06-26T11:55:27.262Z - info: [ui] [AppStore] adding account LaSizza (LaSizza) to store
+2020-06-26T11:55:27.273Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2020-06-26T11:55:27.308Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-26T11:55:27.523Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2020-06-26T11:55:57.929Z - info: [ui] [Welcome] advancing to step: UsageOptOut
+2020-06-26T11:56:00.185Z - info: [ui] Opt out reported.
+2020-06-26T12:13:49.244Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/LaSizza/5is18b-SerenaLagrotteria.git - LaSizza (has token)
+2020-06-26T12:13:51.849Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/LaSizza/5is18b-SerenaLagrotteria.git C:\Users\seren\Documents\GitHub\5is18b-SerenaLagrotteria (took 2.531s)
+2020-06-26T12:13:51.901Z - info: [ui] [AppStore] adding repository at C:\Users\seren\Documents\GitHub\5is18b-SerenaLagrotteria to store
+2020-06-26T12:14:15.158Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-SerenaLagrotteria - LaSizza (has token)
+2020-06-26T12:14:16.481Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.263s)
+2020-06-26T12:23:53.032Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/manufigu/5is18b-M143_JMS.git - LaSizza (has token)
+2020-06-26T12:23:54.349Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/manufigu/5is18b-M143_JMS.git C:\Users\seren\Documents\GitHub\5is18b-M143_JMS (took 1.258s)
+2020-06-26T12:23:54.403Z - info: [ui] [AppStore] adding repository at C:\Users\seren\Documents\GitHub\5is18b-M143_JMS to store
+2020-06-26T12:23:54.584Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T12:24:17.337Z - info: [main] opening in browser: https://github.com/manufigu/5is18b-M143_JMS
+2020-06-26T12:26:58.947Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T12:27:00.213Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.212s)
+2020-06-26T12:27:00.448Z - info: [ui] Background fetch for 2 repositories took 2.394sec
+2020-06-26T12:29:14.644Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.317s)
+2020-06-26T12:34:35.095Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.937s)
+2020-06-26T12:39:54.843Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.212s)
+2020-06-26T12:41:59.692Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T12:42:00.952Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.210s)
+2020-06-26T12:42:01.167Z - info: [ui] Background fetch for 2 repositories took 3.116sec
+2020-06-26T12:45:14.612Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.188s)
+2020-06-26T12:50:34.334Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.229s)
+2020-06-26T12:55:54.234Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.463s)
+2020-06-26T12:56:59.015Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T12:57:00.364Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.300s)
+2020-06-26T12:57:00.566Z - info: [ui] Background fetch for 2 repositories took 2.515sec
+2020-06-26T13:01:13.938Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.287s)
+2020-06-26T13:04:31.631Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T13:04:32.920Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.392s)
+2020-06-26T13:04:34.241Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.305s)
+2020-06-26T13:11:58.997Z - info: [ui] Background fetch for 2 repositories took 0.942sec
+2020-06-26T13:14:34.694Z - info: [ui] [AppStore] loading 2 repositories from store
+2020-06-26T13:14:34.696Z - info: [ui] [AppStore] found account: LaSizza (LaSizza)
+2020-06-26T13:14:34.823Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2020-06-26T13:14:35.029Z - info: [ui] launching: 2.5.3 (Windows 10.0.18363)
+2020-06-26T13:14:35.030Z - info: [ui] execPath: 'C:\Users\seren\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe'
+2020-06-26T13:15:10.370Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/manufigu/5is18b-M143_JMS.git - LaSizza (has token)
+2020-06-26T13:15:12.962Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/manufigu/5is18b-M143_JMS.git C:\Users\seren\Documents\GitHub\5is18b-M143_JMS (took 2.535s)
+2020-06-26T13:15:13.008Z - info: [ui] [AppStore] adding repository at C:\Users\seren\Documents\GitHub\5is18b-M143_JMS to store
+2020-06-26T13:15:13.189Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T13:15:15.370Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:15:16.777Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.354s)
+2020-06-26T13:15:47.764Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:15:49.246Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.428s)
+2020-06-26T13:15:50.432Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:15:51.938Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.405s)
+2020-06-26T13:16:20.873Z - info: [main] Received possible protocol arguments: 3
+2020-06-26T13:16:20.873Z - error: [main] Malformed launch arguments received: C:\Users\seren\AppData\Local\GitHubDesktop\app-2.5.3\GitHubDesktop.exe,--allow-file-access-from-files,--original-process-start-time=13237650980758075
+2020-06-26T13:16:35.571Z - info: [ui] Background fetch for 2 repositories took 0.827sec
+2020-06-26T13:16:37.371Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.802s
+2020-06-26T13:16:39.103Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:16:43.366Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.210s)
+2020-06-26T13:16:44.656Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.234s)
+2020-06-26T13:17:50.077Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:17:51.387Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.252s)
+2020-06-26T13:17:54.032Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:17:55.384Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.302s)
+2020-06-26T13:18:27.911Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:18:29.252Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.281s)
+2020-06-26T13:18:31.990Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:18:33.412Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.316s)
+2020-06-26T13:19:39.193Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.873s
+2020-06-26T13:19:39.697Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:19:43.850Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.102s)
+2020-06-26T13:19:45.149Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.248s)
+2020-06-26T13:22:18.169Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:22:19.605Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.377s)
+2020-06-26T13:22:21.236Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:22:22.641Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.303s)
+2020-06-26T13:23:48.235Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:23:49.667Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.373s)
+2020-06-26T13:23:53.489Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:23:54.932Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.332s)
+2020-06-26T13:24:38.798Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.843s
+2020-06-26T13:24:39.357Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:24:40.635Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 1.224s)
+2020-06-26T13:24:40.636Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/manufigu/5is18b-M143_JMS.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/manufigu/5is18b-M143_JMS.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-06-26T13:25:09.717Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:25:11.148Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.364s)
+2020-06-26T13:25:15.918Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:25:17.325Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.301s)
+2020-06-26T13:25:17.326Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 1.
+stdout:
+Auto-merging Java_JDBC_Examples/MyQueryUpdate.java
+CONFLICT (content): Merge conflict in Java_JDBC_Examples/MyQueryUpdate.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+(The error was parsed as 7: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2020-06-26T13:25:55.225Z - info: [ui] calling captureCommandOutput(where git)
+2020-06-26T13:26:10.347Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:26:15.977Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.573s)
+2020-06-26T13:26:17.990Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.957s)
+2020-06-26T13:28:57.308Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:28:58.686Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.325s)
+2020-06-26T13:29:01.706Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:29:03.288Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.474s)
+2020-06-26T13:29:26.210Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.765s
+2020-06-26T13:29:26.724Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:29:30.915Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.135s)
+2020-06-26T13:29:32.182Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.214s)
+2020-06-26T13:31:37.170Z - info: [ui] Background fetch for 2 repositories took 1.081sec
+2020-06-26T13:35:16.242Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.858s
+2020-06-26T13:35:17.142Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:35:18.407Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 1.210s)
+2020-06-26T13:35:18.407Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/manufigu/5is18b-M143_JMS.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/manufigu/5is18b-M143_JMS.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-06-26T13:35:20.622Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:35:22.143Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.459s)
+2020-06-26T13:35:23.763Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:35:25.261Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.399s)
+2020-06-26T13:35:26.171Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - LaSizza (has token)
+2020-06-26T13:35:30.732Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.511s)
+2020-06-26T13:35:32.102Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.311s)
