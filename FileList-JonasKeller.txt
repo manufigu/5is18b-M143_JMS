@@ -1,0 +1,994 @@
+total 40
+drwxr-xr-x  12 jonas  staff   384 Jun 26 15:33 .
+drwxr-xr-x@  4 jonas  staff   128 Jun 26 15:12 ..
+-rw-r--r--@  1 jonas  staff  8196 Jun 26 15:33 .DS_Store
+drwxr-xr-x  16 jonas  staff   512 Jun 26 15:32 .git
+-rw-r--r--@  1 jonas  staff     0 Jun 26 15:33 FileList-JonasKeller.txt
+drwxrwxr-x@ 28 jonas  staff   896 Jun 26 15:20 Java_File_IO_Examples
+drwxr-xr-x  25 jonas  staff   800 Jun 26 15:31 Java_JDBC_Examples
+drwxr-xr-x   7 jonas  staff   224 Jun 26 15:20 Java_Sort_Examples
+drwxr-xr-x@  2 jonas  staff    64 Jun 26 15:31 JonasKeller
+drwxr-xr-x   8 jonas  staff   256 Jun 26 15:32 ManuelFigueiredo
+-rw-r--r--@  1 jonas  staff   111 Jun 26 15:06 MemberList.txt
+-rw-r--r--   1 jonas  staff   314 Jun 26 15:32 README
+
+./.git:
+total 72
+drwxr-xr-x   16 jonas  staff   512 Jun 26 15:32 .
+drwxr-xr-x   12 jonas  staff   384 Jun 26 15:33 ..
+-rw-r--r--    1 jonas  staff   123 Jun 26 15:27 COMMIT_EDITMSG
+-rw-r--r--    1 jonas  staff   105 Jun 26 15:32 FETCH_HEAD
+-rw-r--r--    1 jonas  staff    23 Jun 26 15:06 HEAD
+-rw-r--r--    1 jonas  staff    41 Jun 26 15:32 ORIG_HEAD
+drwxr-xr-x    2 jonas  staff    64 Jun 26 15:06 branches
+-rw-r--r--    1 jonas  staff   341 Jun 26 15:06 config
+-rw-r--r--    1 jonas  staff    73 Jun 26 15:06 description
+drwxr-xr-x   13 jonas  staff   416 Jun 26 15:06 hooks
+-rw-r--r--    1 jonas  staff  7017 Jun 26 15:32 index
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:06 info
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:06 logs
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 objects
+-rw-r--r--    1 jonas  staff   114 Jun 26 15:06 packed-refs
+drwxr-xr-x    5 jonas  staff   160 Jun 26 15:06 refs
+
+./.git/branches:
+total 0
+drwxr-xr-x   2 jonas  staff   64 Jun 26 15:06 .
+drwxr-xr-x  16 jonas  staff  512 Jun 26 15:32 ..
+
+./.git/hooks:
+total 96
+drwxr-xr-x  13 jonas  staff   416 Jun 26 15:06 .
+drwxr-xr-x  16 jonas  staff   512 Jun 26 15:32 ..
+-rwxr-xr-x   1 jonas  staff   478 Jun 26 15:06 applypatch-msg.sample
+-rwxr-xr-x   1 jonas  staff   896 Jun 26 15:06 commit-msg.sample
+-rwxr-xr-x   1 jonas  staff  3327 Jun 26 15:06 fsmonitor-watchman.sample
+-rwxr-xr-x   1 jonas  staff   189 Jun 26 15:06 post-update.sample
+-rwxr-xr-x   1 jonas  staff   424 Jun 26 15:06 pre-applypatch.sample
+-rwxr-xr-x   1 jonas  staff  1638 Jun 26 15:06 pre-commit.sample
+-rwxr-xr-x   1 jonas  staff  1348 Jun 26 15:06 pre-push.sample
+-rwxr-xr-x   1 jonas  staff  4898 Jun 26 15:06 pre-rebase.sample
+-rwxr-xr-x   1 jonas  staff   544 Jun 26 15:06 pre-receive.sample
+-rwxr-xr-x   1 jonas  staff  1492 Jun 26 15:06 prepare-commit-msg.sample
+-rwxr-xr-x   1 jonas  staff  3610 Jun 26 15:06 update.sample
+
+./.git/info:
+total 8
+drwxr-xr-x   3 jonas  staff   96 Jun 26 15:06 .
+drwxr-xr-x  16 jonas  staff  512 Jun 26 15:32 ..
+-rw-r--r--   1 jonas  staff  240 Jun 26 15:06 exclude
+
+./.git/logs:
+total 8
+drwxr-xr-x   4 jonas  staff   128 Jun 26 15:06 .
+drwxr-xr-x  16 jonas  staff   512 Jun 26 15:32 ..
+-rw-r--r--   1 jonas  staff  3005 Jun 26 15:32 HEAD
+drwxr-xr-x   4 jonas  staff   128 Jun 26 15:06 refs
+
+./.git/logs/refs:
+total 0
+drwxr-xr-x  4 jonas  staff  128 Jun 26 15:06 .
+drwxr-xr-x  4 jonas  staff  128 Jun 26 15:06 ..
+drwxr-xr-x  3 jonas  staff   96 Jun 26 15:06 heads
+drwxr-xr-x  3 jonas  staff   96 Jun 26 15:06 remotes
+
+./.git/logs/refs/heads:
+total 8
+drwxr-xr-x  3 jonas  staff    96 Jun 26 15:06 .
+drwxr-xr-x  4 jonas  staff   128 Jun 26 15:06 ..
+-rw-r--r--  1 jonas  staff  3005 Jun 26 15:32 master
+
+./.git/logs/refs/remotes:
+total 0
+drwxr-xr-x  3 jonas  staff   96 Jun 26 15:06 .
+drwxr-xr-x  4 jonas  staff  128 Jun 26 15:06 ..
+drwxr-xr-x  4 jonas  staff  128 Jun 26 15:11 origin
+
+./.git/logs/refs/remotes/origin:
+total 16
+drwxr-xr-x  4 jonas  staff   128 Jun 26 15:11 .
+drwxr-xr-x  3 jonas  staff    96 Jun 26 15:06 ..
+-rw-r--r--  1 jonas  staff   211 Jun 26 15:06 HEAD
+-rw-r--r--  1 jonas  staff  2634 Jun 26 15:32 master
+
+./.git/objects:
+total 0
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 .
+drwxr-xr-x   16 jonas  staff   512 Jun 26 15:32 ..
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 03
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:14 04
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 05
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:19 09
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:25 0a
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 0c
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 0f
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:25 11
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 14
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:14 15
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 17
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 1d
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 1f
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:31 20
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 22
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 27
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:16 29
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:16 2a
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 2d
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 2e
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 34
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:27 38
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 3c
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 3e
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 3f
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 40
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:11 42
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 44
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:19 46
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 47
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:25 49
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 4a
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:11 4b
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 4c
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:16 51
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 52
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:32 54
+drwxr-xr-x    5 jonas  staff   160 Jun 26 15:15 55
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 56
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 57
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 58
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:19 59
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 5b
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 5f
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 6a
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 6b
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 6d
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:32 72
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 76
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 78
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 79
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:11 7f
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 80
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:16 81
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 82
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:16 83
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 8a
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:25 8b
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:27 8e
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:31 95
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 97
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 98
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 99
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:24 9c
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:24 9d
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:19 a0
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:31 a2
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:19 a3
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 a4
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:19 a5
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 a6
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:15 a7
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 ab
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:15 ac
+drwxr-xr-x    5 jonas  staff   160 Jun 26 15:32 af
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 b2
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 b6
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 b7
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 b8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:16 c4
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:24 c5
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:16 c7
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 cb
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:27 cd
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 d0
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 d1
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:25 d4
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 d7
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:20 dc
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:31 e1
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:20 e2
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 e3
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 e4
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:19 e7
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:27 e9
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 ea
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 eb
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 ee
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 f1
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:16 f2
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 f3
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:32 f5
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 f6
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 fc
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 fe
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 ff
+drwxr-xr-x    2 jonas  staff    64 Jun 26 15:06 info
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:06 pack
+
+./.git/objects/03:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   184 Jun 26 15:22 c4d500b4247bc23113f0f56693d0f9ce19dbd0
+
+./.git/objects/04:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   575 Jun 26 15:14 2ed705cba8f4177da8cceee128fd8796e09e42
+-r--r--r--    1 jonas  staff   692 Jun 26 15:14 dfc7caa2f9068c3e90c2efcc4cc0aaa95e737b
+
+./.git/objects/05:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   554 Jun 26 15:32 4e9244b435b5f344292703c8e85c3ef6ba4e65
+
+./.git/objects/09:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:19 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   197 Jun 26 15:19 d80a9018149ded1ce67e34fd7e6dce1d843c44
+
+./.git/objects/0a:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:25 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   815 Jun 26 15:25 e5ed63d7520b2edf3d09de1e0e3d66b2ec4c8d
+
+./.git/objects/0c:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   271 Jun 26 15:32 ea0c5f327e46d8414aa16394b47e5518f8b718
+
+./.git/objects/0f:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   363 Jun 26 15:14 494e8e74fce15bf201f91f88d0feeec86c807c
+
+./.git/objects/11:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:25 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   231 Jun 26 15:25 c39fd050bc04c7349e880b828c6d91f653ce47
+
+./.git/objects/14:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   181 Jun 26 15:14 e0e5d1abc5d0c4a11e9409269f2bca74d9cc6d
+
+./.git/objects/15:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   659 Jun 26 15:14 a438c83ba1278b2d46665bb54c5b901de8b17a
+-r--r--r--    1 jonas  staff   818 Jun 26 15:14 c19dccfd275c0410f3c4f9a093d999616480cd
+
+./.git/objects/17:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   619 Jun 26 15:27 13f08a877dc57a106af27d9b30d2143993f603
+
+./.git/objects/1d:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   153 Jun 26 15:14 15212668c52d2f1475bda23534d87206bcf147
+
+./.git/objects/1f:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   815 Jun 26 15:22 836f58cbc2d2a872a7529cf0f0a2c0a7973c4b
+
+./.git/objects/20:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:31 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   815 Jun 26 15:31 9b3152c330dfa06522059ba7ec336373efcc7d
+
+./.git/objects/22:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   328 Jun 26 15:15 5698423cc793d673ae179d74bc5094af58f7b1
+
+./.git/objects/27:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   347 Jun 26 15:15 2c444a42acd696be7ee75eaa2dfd6e37333c17
+
+./.git/objects/29:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:16 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   397 Jun 26 15:15 33d6e223467003d6ac64b1aa53620d8e12f2a7
+-r--r--r--    1 jonas  staff   191 Jun 26 15:16 8228e67c6096afcdf1971958e507acfe37e86f
+
+./.git/objects/2a:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:16 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   642 Jun 26 15:16 b9b468ef51ce2b2b8cff74805086f04af69590
+
+./.git/objects/2d:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff  1065 Jun 26 15:32 5491c13a65c3c80400aa7932a6e30aaae70dfc
+
+./.git/objects/2e:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   381 Jun 26 15:15 bcc94f6a0b55d7908991f1af0a680168cba4eb
+
+./.git/objects/34:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   597 Jun 26 15:14 422d92cd8be93c01ba675f741649c5fc52bab6
+
+./.git/objects/38:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   559 Jun 26 15:27 2c98996ef8ac466f8d3ea02630e7cbb7c917b5
+-r--r--r--    1 jonas  staff   609 Jun 26 15:22 4ab5d6ce9d02ad4dfed7bc472f6ef86f392e9e
+
+./.git/objects/3c:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   615 Jun 26 15:22 1a142d337b7a26fbd7efd64511d81dd0f589f8
+
+./.git/objects/3e:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   343 Jun 26 15:19 d9c639883165ad0791679facc2d27ee7cad470
+
+./.git/objects/3f:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   353 Jun 26 15:15 27f69076edcf9fc3b96b595e0e8e7242b1942d
+
+./.git/objects/40:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   815 Jun 26 15:22 dbfdcd71c7e88a6a4518bb29fc4d76f06576aa
+
+./.git/objects/42:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:11 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff    89 Jun 26 15:11 9c7578b9afd2e8fce4865a49afe6d510616a8b
+
+./.git/objects/44:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   529 Jun 26 15:14 4300b7d02034d4280471c785d94dc558e0d343
+
+./.git/objects/46:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:19 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   613 Jun 26 15:14 668799654e2cfbbecdfa38bd131d55c8d9be9d
+-r--r--r--    1 jonas  staff   868 Jun 26 15:20 f58b6be24a6f3031bce0978bd4ad2b5c054422
+
+./.git/objects/47:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   243 Jun 26 15:27 fdb0efe15050ad0c11fc84d3b975733fa5dcd5
+
+./.git/objects/49:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:25 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   559 Jun 26 15:25 d350683fe4c4f338ae689943fe34c53fad1cc0
+
+./.git/objects/4a:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   246 Jun 26 15:27 b3644047d6f2d589ae6dc7520c1c541664a751
+
+./.git/objects/4b:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:11 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   554 Jun 26 15:11 9da4c3653cd19b9d17031e3b70b66d1adeedd5
+
+./.git/objects/4c:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   391 Jun 26 15:15 b0d5c02041b54670201cf2e54f10ff4359bca1
+
+./.git/objects/51:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:16 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   186 Jun 26 15:16 cb04b9639f8ba3f07404cb1b0fb9718f6bacde
+
+./.git/objects/52:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   184 Jun 26 15:27 fc54b28a61ca775f75f7f008c940cf18c8d8fb
+
+./.git/objects/54:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   197 Jun 26 15:19 6f6f24f40f7a463ecfac1f8f18eae86086a8d4
+-r--r--r--    1 jonas  staff   271 Jun 26 15:32 74445614f7ab7e8a6559bf5267687609db3836
+
+./.git/objects/55:
+total 24
+drwxr-xr-x    5 jonas  staff   160 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   393 Jun 26 15:15 64f51b3b5b5c5b8f3ff1182e24a8ae179f03f8
+-r--r--r--    1 jonas  staff   190 Jun 26 15:15 9e378c091c741de6bad03381511f8a2df94833
+-r--r--r--    1 jonas  staff   585 Jun 26 15:14 e9aeb05392f42cb7782d5d08bae6b941b15348
+
+./.git/objects/56:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   453 Jun 26 15:15 3d275186cd4be025ba73c2929c274bd670a2b7
+
+./.git/objects/57:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   196 Jun 26 15:22 b3a5adef85d280f23e0dfb71275bf4a6bcc165
+
+./.git/objects/58:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   332 Jun 26 15:15 4b0d5700aa1455411492efc40f02d001b08b8f
+
+./.git/objects/59:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:19 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   230 Jun 26 15:19 a18232d0089f8e8223462b500db254cfd39a65
+-r--r--r--    1 jonas  staff   624 Jun 26 15:14 d556b2a4d4be36b1edb24343d7f2b1ad9273ef
+
+./.git/objects/5b:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   815 Jun 26 15:27 369bfe91c72a317553b0ec1da790122d206beb
+
+./.git/objects/5f:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   231 Jun 26 15:32 a4dc8a597a6ddf684e78d0470ed0cdeecc7cad
+
+./.git/objects/6a:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   624 Jun 26 15:22 afa44b0c5327a09b75e5039784270add9124eb
+
+./.git/objects/6b:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   440 Jun 26 15:15 93a7cdd7dc82100da3871e8ccdcf400607889b
+
+./.git/objects/6d:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   599 Jun 26 15:14 9cff1b65240a245ce2e6d44e37d1b30f3b8f20
+
+./.git/objects/72:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   616 Jun 26 15:14 bdabd77a8a6336d792a2e79701c597577ce624
+-r--r--r--    1 jonas  staff   241 Jun 26 15:32 f5c9cb74cd5f4e5d5e96c62a14b927478bb437
+
+./.git/objects/76:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   465 Jun 26 15:15 0ae90bc826f7ea4260b2c48235905ed96fa4cb
+
+./.git/objects/78:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   230 Jun 26 15:22 764264dfc71a050934e7c2136fe70fe539266a
+
+./.git/objects/79:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   178 Jun 26 15:32 d22199e54f40ed72a43ab12d93d54bb5712a19
+
+./.git/objects/7f:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:11 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   162 Jun 26 15:11 1446867c9614e2b9de721f33b2b68d27a40e1b
+
+./.git/objects/80:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   168 Jun 26 15:15 689421d5c66e3dee087c71a67e3c8f4aa53e4f
+
+./.git/objects/81:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:16 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   352 Jun 26 15:16 99354eeb3a082389d268849623f9b5adfe0491
+
+./.git/objects/82:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   613 Jun 26 15:14 23a82138c0f78ef489c5f7af8dbca05c8f4c5e
+
+./.git/objects/83:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:16 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   531 Jun 26 15:14 1152a6061ec0b9e84746d5f35e52f1b1f0575c
+-r--r--r--    1 jonas  staff   439 Jun 26 15:16 d0a74297dcb6497dac8cb6753dbaddaf73f9e6
+
+./.git/objects/8a:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   883 Jun 26 15:32 83f2e5579d94c9c841d76671dc860efd9d2858
+
+./.git/objects/8b:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:25 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   624 Jun 26 15:25 302640e137c9519eb3a4d1a749c3689aa44497
+
+./.git/objects/8e:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   231 Jun 26 15:27 5e69bc6c847de7edbe2cad30f19eb8988c45c6
+-r--r--r--    1 jonas  staff   648 Jun 26 15:14 9fb836993101f9ac1a1f3deca3f4aafbf7d902
+
+./.git/objects/95:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:31 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   636 Jun 26 15:31 62cacf0c1aee075ad7c1b10c945b50caffc83b
+
+./.git/objects/97:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   557 Jun 26 15:27 616905a204a9d37a8dc05f4a5b7f310f201c1c
+
+./.git/objects/98:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   696 Jun 26 15:32 413dbee688d9e21476574def402bea757451ef
+
+./.git/objects/99:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   135 Jun 26 15:14 9dae0a2411f805609643b751d91678c087602e
+
+./.git/objects/9c:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:24 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   188 Jun 26 15:24 5e4f27364558351b3e58944b6ce1aa23bb769f
+-r--r--r--    1 jonas  staff   410 Jun 26 15:19 ad0a13d87de1135f98c6a6abb4b991ac4e727c
+
+./.git/objects/9d:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:24 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   815 Jun 26 15:24 bf31d1a8fcaf90cc612651222405dbbb6730b2
+
+./.git/objects/a0:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:19 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   190 Jun 26 15:19 ae94b0fc1c3ff5b09aec07b651b61c2245c732
+
+./.git/objects/a2:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:31 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   302 Jun 26 15:15 528d4f24a8b36b1c89500b5c1c392d8e773268
+-r--r--r--    1 jonas  staff   188 Jun 26 15:31 672d92e35375205222e34fc30e24f76dc562a2
+
+./.git/objects/a3:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:19 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   187 Jun 26 15:20 c51976e99366781c42d0b723604bb3b2d788c8
+
+./.git/objects/a4:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   815 Jun 26 15:27 8f45a080588a316b57ae1c02e6c4d548f261bf
+
+./.git/objects/a5:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:19 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   190 Jun 26 15:19 3b7ae2a320bc288f826afc60588befbd0cc5f2
+
+./.git/objects/a6:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   781 Jun 26 15:15 e4f7d92bf447660d11804b436fa57e1e2b6b4e
+
+./.git/objects/a7:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   285 Jun 26 15:15 ce5df83aafb10f347bf6d426481f56fb296589
+-r--r--r--    1 jonas  staff   447 Jun 26 15:15 d460ccc7451bc4441bd62b068c5ca84e7fa144
+
+./.git/objects/ab:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   242 Jun 26 15:22 4b425b9a6f0b2619110713503eacca294e6755
+
+./.git/objects/ac:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   212 Jun 26 15:15 d36e4f9fa6f9bab9082e8295e63b3918b9fe34
+-r--r--r--    1 jonas  staff   222 Jun 26 15:15 fa4339f916f88932fdfa524de438b09676cd33
+
+./.git/objects/af:
+total 24
+drwxr-xr-x    5 jonas  staff   160 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   792 Jun 26 15:22 422b4ea886d1aa84ea4f20158818f2b2e4e64f
+-r--r--r--    1 jonas  staff   231 Jun 26 15:24 d5ac897008e80be98c6fefe82f2b110f9e11ad
+-r--r--r--    1 jonas  staff   234 Jun 26 15:32 f82b23a1c8b17b37038ef0ea07c7976c05d187
+
+./.git/objects/b2:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   920 Jun 26 15:22 24912a46ccac43d6f83dc8c3a8e48814b372d4
+
+./.git/objects/b6:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   457 Jun 26 15:15 e280caf330f7b86d3a3e5b8d7400b609b7ae12
+
+./.git/objects/b7:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   523 Jun 26 15:15 fec22f0ba26b4c6a18b0c85a6dc33ece7cf8c8
+
+./.git/objects/b8:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   631 Jun 26 15:14 e656b9c617d667fb874b06b1d8eea2eecdb103
+
+./.git/objects/c4:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:16 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   197 Jun 26 15:16 ef54cde754e5b133bb60ea655db6bd490b94fb
+
+./.git/objects/c5:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:24 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   559 Jun 26 15:24 1a7faa36b5235a66694b6fc09a571d68ca96e3
+
+./.git/objects/c7:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:16 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   381 Jun 26 15:15 2c6348f5e204f18215b7afef8bc3f12da30636
+-r--r--r--    1 jonas  staff   327 Jun 26 15:16 74f72a6ae151444d0ba5b1d145ab4c2363f552
+
+./.git/objects/cb:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   855 Jun 26 15:32 7ab1b43e39bace9871cfef197f9f3a0d9aa86d
+
+./.git/objects/cd:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   184 Jun 26 15:19 357f27f69938ef4acb62beaaedc443e9e767b3
+-r--r--r--    1 jonas  staff   231 Jun 26 15:27 561dd0f2a9079edd09d0c0094e5c5e0f795e8a
+
+./.git/objects/d0:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   558 Jun 26 15:14 2a34ee7cec61c73f549d83141681816400e7b3
+
+./.git/objects/d1:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   466 Jun 26 15:14 f992e17271c5221d820b014e4219c07169178f
+
+./.git/objects/d4:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:25 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   868 Jun 26 15:15 35725f345d26d1ebca954956f3c0c1d346ed19
+-r--r--r--    1 jonas  staff   178 Jun 26 15:25 70b650d3d739777b4d259cfd8c5c0ffe539943
+
+./.git/objects/d7:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   231 Jun 26 15:22 31b7b915fd3710f4be10890885315c7f7517e7
+
+./.git/objects/dc:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:20 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   243 Jun 26 15:20 a9adbed85f5c02c4f8f61f266273c2415998d3
+
+./.git/objects/e1:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:31 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   231 Jun 26 15:31 4edc705d991ebd46c53336126c1774c78ac5d8
+-r--r--r--    1 jonas  staff   815 Jun 26 15:22 a0893fb714ffa847286e419b82cd4d88d536c2
+
+./.git/objects/e2:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:20 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   230 Jun 26 15:20 3336e1880c007ba2f0adb2537426f470cddc9c
+
+./.git/objects/e3:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   282 Jun 26 15:15 5bffe3fa3216155f5a2d94385762a8da151b84
+
+./.git/objects/e4:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   452 Jun 26 15:15 2dbf1dd2c52cd6dafe1479bc481e2a30a8e9eb
+
+./.git/objects/e7:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:19 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   815 Jun 26 15:20 b82f4bf8623c0909f46ffc525e35b56af7e94a
+
+./.git/objects/e9:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:27 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   242 Jun 26 15:27 493fa0c46158c146d17f821998f70486d87af6
+-r--r--r--    1 jonas  staff   399 Jun 26 15:14 7ad1957707f8ffd7085a5169c5217410d20f85
+
+./.git/objects/ea:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   633 Jun 26 15:14 2b7d9bc59fda3fe0560718376048ec8de28a4f
+
+./.git/objects/eb:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff  1603 Jun 26 15:32 07d9725b69cef819da3dca6b857f5ddd51d5e6
+
+./.git/objects/ee:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   600 Jun 26 15:14 f8e17c70d8ebec517d1c82f7065fceab3c5417
+
+./.git/objects/f1:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   900 Jun 26 15:22 19d9990c9b78529e57e2feb3b937aaaef1de32
+
+./.git/objects/f2:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:16 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   795 Jun 26 15:16 300b888d205d09a9de51f01d3930d56376236d
+
+./.git/objects/f3:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   493 Jun 26 15:14 60f679be4b9567595787548fb1ed16872fcd2b
+
+./.git/objects/f5:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff  1689 Jun 26 15:32 379b749336bd7fab3396d8b2939e5054de43af
+-r--r--r--    1 jonas  staff   183 Jun 26 15:15 82be0df90932c0bb45c27cbcb859dcd3b12b89
+
+./.git/objects/f6:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:32 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   238 Jun 26 15:32 021734e98c5b24dd6abe1fe6f64065f2896089
+
+./.git/objects/fc:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:14 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   720 Jun 26 15:14 595b0945f87198f8eca8804830705417f2c4b9
+
+./.git/objects/fe:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:15 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   189 Jun 26 15:15 5751f293d89242cc8fd59b54a0a6fc44d404b6
+
+./.git/objects/ff:
+total 8
+drwxr-xr-x    3 jonas  staff    96 Jun 26 15:22 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff   231 Jun 26 15:22 ed5e6c28551c0ce7bcf178ccc77bb68a8d3df2
+
+./.git/objects/info:
+total 0
+drwxr-xr-x    2 jonas  staff    64 Jun 26 15:06 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+
+./.git/objects/pack:
+total 16
+drwxr-xr-x    4 jonas  staff   128 Jun 26 15:06 .
+drwxr-xr-x  110 jonas  staff  3520 Jun 26 15:32 ..
+-r--r--r--    1 jonas  staff  1240 Jun 26 15:06 pack-5d6424a9a6f4329441e1f07ac6c3c406176c00aa.idx
+-r--r--r--    1 jonas  staff  1010 Jun 26 15:06 pack-5d6424a9a6f4329441e1f07ac6c3c406176c00aa.pack
+
+./.git/refs:
+total 0
+drwxr-xr-x   5 jonas  staff  160 Jun 26 15:06 .
+drwxr-xr-x  16 jonas  staff  512 Jun 26 15:32 ..
+drwxr-xr-x   3 jonas  staff   96 Jun 26 15:32 heads
+drwxr-xr-x   3 jonas  staff   96 Jun 26 15:06 remotes
+drwxr-xr-x   2 jonas  staff   64 Jun 26 15:06 tags
+
+./.git/refs/heads:
+total 8
+drwxr-xr-x  3 jonas  staff   96 Jun 26 15:32 .
+drwxr-xr-x  5 jonas  staff  160 Jun 26 15:06 ..
+-rw-r--r--  1 jonas  staff   41 Jun 26 15:32 master
+
+./.git/refs/remotes:
+total 0
+drwxr-xr-x  3 jonas  staff   96 Jun 26 15:06 .
+drwxr-xr-x  5 jonas  staff  160 Jun 26 15:06 ..
+drwxr-xr-x  4 jonas  staff  128 Jun 26 15:32 origin
+
+./.git/refs/remotes/origin:
+total 16
+drwxr-xr-x  4 jonas  staff  128 Jun 26 15:32 .
+drwxr-xr-x  3 jonas  staff   96 Jun 26 15:06 ..
+-rw-r--r--  1 jonas  staff   32 Jun 26 15:06 HEAD
+-rw-r--r--  1 jonas  staff   41 Jun 26 15:32 master
+
+./.git/refs/tags:
+total 0
+drwxr-xr-x  2 jonas  staff   64 Jun 26 15:06 .
+drwxr-xr-x  5 jonas  staff  160 Jun 26 15:06 ..
+
+./Java_File_IO_Examples:
+total 224
+drwxrwxr-x@ 28 jonas  staff   896 Jun 26 15:20 .
+drwxr-xr-x  12 jonas  staff   384 Jun 26 15:33 ..
+-rw-r--r--@  1 jonas  staff  8196 Jun 26 15:20 .DS_Store
+-rw-rw-r--@  1 jonas  staff  1233 Jan 16  2018 @README.txt
+-rw-rw-r--@  1 jonas  staff   838 Jan 16  2018 ByteArrToInputStream.java
+-rw-rw-r--@  1 jonas  staff  1055 Jan 16  2018 ByteWriteToFile.java
+-rw-rw-r--@  1 jonas  staff   601 Jan 16  2018 ClassLoaderFileLoading.java
+-rw-rw-r--@  1 jonas  staff   327 Jan 16  2018 FileListFromFolder.java
+-rw-rw-r--@  1 jonas  staff  1005 Jan 16  2018 FileToByteArray.java
+-rw-rw-r--@  1 jonas  staff   328 Jan 16  2018 FilesListFromFolder.java
+-rw-rw-r--@  1 jonas  staff  1056 Jan 16  2018 MyByteArrayToReader.java
+-rw-rw-r--@  1 jonas  staff   655 Jan 16  2018 MyFileFilter.java
+-rw-rw-r--@  1 jonas  staff   262 Jan 16  2018 MyFileLastModified.java
+-rw-rw-r--@  1 jonas  staff  1318 Jan 16  2018 MyFileOperations.java
+-rw-rw-r--@  1 jonas  staff   855 Jan 16  2018 MyFilePermissions.java
+-rw-rw-r--@  1 jonas  staff  1021 Jan 16  2018 MyFileReadBybis.java
+-rw-rw-r--@  1 jonas  staff   230 Jan 16  2018 MyFileUrl.java
+-rw-rw-r--@  1 jonas  staff   796 Jan 16  2018 MyFileXmlStore.java
+-rw-rw-r--@  1 jonas  staff   676 Jan 16  2018 MyFilteredFileList.java
+-rw-rw-r--@  1 jonas  staff   943 Jan 16  2018 MyIstoBr.java
+-rw-rw-r--@  1 jonas  staff  2817 Jan 16  2018 MyObjectFileStore.java
+-rw-rw-r--@  1 jonas  staff   799 Jan 16  2018 MyPropertyFileStore.java
+-rw-rw-r--@  1 jonas  staff  1180 Jan 16  2018 MyTempDelete.java
+-rw-rw-r--@  1 jonas  staff   836 Jan 16  2018 MyTempFileWrite.java
+-rw-rw-r--@  1 jonas  staff   513 Jan 16  2018 MyTmpFile.java
+-rw-rw-r--@  1 jonas  staff   828 Jan 16  2018 ReadFromConsole.java
+-rw-rw-r--@  1 jonas  staff   748 Jan 16  2018 ReadLinesFromFile.java
+-rw-rw-r--@  1 jonas  staff  1067 Jan 16  2018 WriteToFile.java
+
+./Java_JDBC_Examples:
+total 184
+drwxr-xr-x  25 jonas  staff   800 Jun 26 15:31 .
+drwxr-xr-x  12 jonas  staff   384 Jun 26 15:33 ..
+-rw-r--r--@  1 jonas  staff  1584 Jun 26 15:14 @README.txt
+-rw-r--r--@  1 jonas  staff   237 Jun 26 15:14 @README2.txt
+-rw-r--r--@  1 jonas  staff   822 Jun 26 15:14 JdbcConnection.java
+-rw-r--r--@  1 jonas  staff  1591 Jun 26 15:14 MyAutoGeneratedKeys.java
+-rw-r--r--@  1 jonas  staff  1309 Jun 26 15:20 MyBatchCallableStatement.java
+-rw-r--r--@  1 jonas  staff  1681 Jun 26 15:14 MyBatchPreparedStmt.java
+-rw-r--r--@  1 jonas  staff  1589 Jun 26 15:14 MyBlobInsert.java
+-rw-r--r--@  1 jonas  staff  2114 Jun 26 15:14 MyBlobRead.java
+-rw-r--r--@  1 jonas  staff   782 Jun 26 15:14 MyConnWithProperties.java
+-rw-r--r--@  1 jonas  staff  1444 Jun 26 15:14 MyCursorCallableStmt.java
+-rw-r--r--@  1 jonas  staff  1203 Jun 26 15:14 MyDatabaseMetadata.java
+-rw-r--r--@  1 jonas  staff  1611 Jun 26 15:14 MyExecuteMethod.java
+-rw-r--r--@  1 jonas  staff  1404 Jun 26 15:14 MyFunctionCallableStmt.java
+-rw-r--r--@  1 jonas  staff  1406 Jun 26 15:14 MyOutparmCallableStmt.java
+-rw-r--r--@  1 jonas  staff  1608 Jun 26 15:14 MyPrepStmtResltSet.java
+-rw-r--r--@  1 jonas  staff  1492 Jun 26 15:31 MyPreparedStatement.java
+-rw-r--r--@  1 jonas  staff  1242 Jun 26 15:27 MyQueryUpdate.java
+-rw-r--r--@  1 jonas  staff  1159 Jun 26 15:14 MyResultSetEx.java
+-rw-r--r--@  1 jonas  staff  1463 Jun 26 15:14 MyResultSetMetadata.java
+-rw-r--r--@  1 jonas  staff  1701 Jun 26 15:14 MyScrollableResultSetEx.java
+-rw-r--r--@  1 jonas  staff  1218 Jun 26 15:14 MySimpleCallableStatement.java
+-rw-r--r--@  1 jonas  staff  1636 Jun 26 15:14 MyStatementBatchUpdate.java
+-rw-r--r--@  1 jonas  staff  1489 Jun 26 15:14 MyUpdatableResultSet.java
+
+./Java_Sort_Examples:
+total 40
+drwxr-xr-x   7 jonas  staff   224 Jun 26 15:20 .
+drwxr-xr-x  12 jonas  staff   384 Jun 26 15:33 ..
+-rw-r--r--   1 jonas  staff  1003 Jun 26 15:17 MyBubbleSort.java
+-rw-r--r--   1 jonas  staff   720 Jun 26 15:17 MyInsertionSort.java
+-rw-r--r--   1 jonas  staff  1839 Jun 26 15:17 MyMergeSort.java
+-rw-r--r--   1 jonas  staff  1996 Jun 26 15:20 MyQuickSort.java
+-rw-r--r--   1 jonas  staff   757 Jun 26 15:17 MySelectionSort.java
+
+./JonasKeller:
+total 0
+drwxr-xr-x@  2 jonas  staff   64 Jun 26 15:31 .
+drwxr-xr-x  12 jonas  staff  384 Jun 26 15:33 ..
+
+./ManuelFigueiredo:
+total 104
+drwxr-xr-x   8 jonas  staff    256 Jun 26 15:32 .
+drwxr-xr-x  12 jonas  staff    384 Jun 26 15:33 ..
+-rw-r--r--@  1 jonas  staff   2638 Jun 26 15:32 2020-06-08.desktop.production.log
+-rw-r--r--@  1 jonas  staff   2025 Jun 26 15:32 2020-06-12.desktop.production.log
+-rw-r--r--@  1 jonas  staff   3994 Jun 26 15:32 2020-06-19.desktop.production.log
+-rw-r--r--@  1 jonas  staff   2751 Jun 26 15:32 2020-06-20.desktop.production.log
+-rw-r--r--@  1 jonas  staff  15080 Jun 26 15:32 2020-06-26.desktop.production.log
+-rw-r--r--@  1 jonas  staff  17404 Jun 26 15:32 FileList-ManuelFigueiredo.txt
