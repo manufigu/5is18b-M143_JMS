@@ -1,0 +1,201 @@
+2020-06-26T13:02:07.236Z - info: [ui] [AppStore] loading 0 repositories from store
+2020-06-26T13:02:07.237Z - info: [ui] [AppStore] found account: debalti (debalti)
+2020-06-26T13:02:07.742Z - info: [ui] launching: 2.5.2 (Mac OS 10.15.5)
+2020-06-26T13:02:07.743Z - info: [ui] execPath: '/Applications/GitHub Desktop.app/Contents/Frameworks/GitHub Desktop Helper (Renderer).app/Contents/MacOS/GitHub Desktop Helper (Renderer)'
+2020-06-26T13:06:50.184Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/manufigu/5is18b-M143_JMS.git - debalti (has token)
+2020-06-26T13:06:52.016Z - info: [ui] Executing clone: git -c credential.helper= -c protocol.version=2 clone --recursive --progress -- https://github.com/manufigu/5is18b-M143_JMS.git /Users/jonas/Documents/GitHub/5is18b-M143_JMS (took 1.772s)
+2020-06-26T13:06:52.046Z - info: [ui] [AppStore] adding repository at /Users/jonas/Documents/GitHub/5is18b-M143_JMS to store
+2020-06-26T13:06:52.734Z - info: [ui] [BranchPruner] No branches to prune.
+2020-06-26T13:10:00.085Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:10:02.078Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.969s)
+2020-06-26T13:11:10.420Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:11:11.717Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.277s)
+2020-06-26T13:12:15.539Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:12:16.766Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.183s)
+2020-06-26T13:14:16.912Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:14:18.417Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.481s)
+2020-06-26T13:14:18.819Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:14:20.098Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.246s)
+2020-06-26T13:14:47.615Z - info: [ui] No submodules found. Skipping "git submodule status"
+2020-06-26T13:15:17.959Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.256s
+2020-06-26T13:15:21.637Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:15:26.281Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.610s)
+2020-06-26T13:15:27.865Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.550s)
+2020-06-26T13:16:57.482Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:16:58.784Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.278s)
+2020-06-26T13:16:59.111Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:17:00.526Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.369s)
+2020-06-26T13:19:43.590Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.245s
+2020-06-26T13:19:45.341Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:19:46.846Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 1.467s)
+2020-06-26T13:19:46.847Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/manufigu/5is18b-M143_JMS.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/manufigu/5is18b-M143_JMS.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-06-26T13:19:53.971Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:19:55.283Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.276s)
+2020-06-26T13:20:00.294Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:20:02.073Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.736s)
+2020-06-26T13:20:03.601Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:20:09.185Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 5.545s)
+2020-06-26T13:20:10.625Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.399s)
+2020-06-26T13:20:45.496Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:20:46.661Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.149s)
+2020-06-26T13:22:20.459Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.228s
+2020-06-26T13:22:22.226Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:22:23.902Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 1.641s)
+2020-06-26T13:22:23.903Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/manufigu/5is18b-M143_JMS.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/manufigu/5is18b-M143_JMS.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-06-26T13:22:24.728Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:22:25.931Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.177s)
+2020-06-26T13:22:27.471Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:22:28.738Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.225s)
+2020-06-26T13:22:30.048Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:22:34.932Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.856s)
+2020-06-26T13:22:37.684Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.727s)
+2020-06-26T13:22:50.809Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:22:52.143Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.312s)
+2020-06-26T13:22:52.784Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:22:54.200Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.391s)
+2020-06-26T13:23:58.578Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:23:59.886Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.291s)
+2020-06-26T13:24:56.537Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.267s
+2020-06-26T13:24:59.601Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:25:01.467Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 1.834s)
+2020-06-26T13:25:01.467Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/manufigu/5is18b-M143_JMS.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/manufigu/5is18b-M143_JMS.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-06-26T13:25:02.313Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:25:04.394Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.042s)
+2020-06-26T13:25:06.024Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:25:07.378Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.309s)
+2020-06-26T13:25:07.380Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 1.
+stdout:
+Auto-merging Java_JDBC_Examples/MyQueryUpdate.java
+CONFLICT (content): Merge conflict in Java_JDBC_Examples/MyQueryUpdate.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+(The error was parsed as 7: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2020-06-26T13:25:17.354Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:25:17.451Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 128.
+stderr:
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+2020-06-26T13:25:23.246Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:25:23.317Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 128.
+stderr:
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+2020-06-26T13:25:46.175Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.002s
+2020-06-26T13:27:29.923Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:27:31.345Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 1.398s)
+2020-06-26T13:27:31.346Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin master:master --progress` exited with an unexpected code: 1.
+stderr:
+To https://github.com/manufigu/5is18b-M143_JMS.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/manufigu/5is18b-M143_JMS.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+(The error was parsed as 10: The repository has been updated since you last pulled. Try pulling before pushing.)
+2020-06-26T13:27:32.539Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:27:34.207Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.647s)
+2020-06-26T13:27:35.593Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:27:36.943Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.292s)
+2020-06-26T13:27:36.944Z - error: [ui] `git -c credential.helper= -c protocol.version=2 pull --progress origin` exited with an unexpected code: 1.
+stdout:
+Auto-merging Java_JDBC_Examples/MyQueryUpdate.java
+CONFLICT (content): Merge conflict in Java_JDBC_Examples/MyQueryUpdate.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+(The error was parsed as 7: We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes.)
+2020-06-26T13:27:47.597Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:27:51.994Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.363s)
+2020-06-26T13:27:53.393Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.367s)
+2020-06-26T13:27:54.208Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:27:55.476Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.246s)
+2020-06-26T13:31:04.520Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:31:06.020Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.478s)
+2020-06-26T13:31:06.959Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:31:08.142Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.135s)
+2020-06-26T13:31:10.709Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:31:11.889Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.144s)
+2020-06-26T13:31:19.547Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:31:20.672Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.108s)
+2020-06-26T13:31:21.426Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:31:22.746Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.287s)
+2020-06-26T13:31:26.698Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:31:27.988Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.272s)
+2020-06-26T13:32:18.751Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:20.090Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.316s)
+2020-06-26T13:32:21.201Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:22.531Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.306s)
+2020-06-26T13:32:23.291Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:24.626Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.277s)
+2020-06-26T13:32:36.142Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:37.549Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.375s)
+2020-06-26T13:32:40.383Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:41.757Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.355s)
+2020-06-26T13:32:42.604Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:43.814Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.187s)
+2020-06-26T13:32:44.405Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:45.632Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.203s)
+2020-06-26T13:32:46.330Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:47.678Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.328s)
+2020-06-26T13:32:48.180Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:49.427Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.228s)
+2020-06-26T13:32:49.930Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:51.145Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.198s)
+2020-06-26T13:32:51.250Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:52.548Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.283s)
+2020-06-26T13:32:52.798Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:54.028Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.212s)
+2020-06-26T13:32:54.468Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:55.763Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.278s)
+2020-06-26T13:32:56.268Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:32:57.483Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 pull --progress origin (took 1.168s)
+2020-06-26T13:34:13.787Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.205s
+2020-06-26T13:34:14.938Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:34:19.298Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.328s)
+2020-06-26T13:34:20.657Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.333s)
+2020-06-26T13:34:39.931Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.225s
+2020-06-26T13:34:41.173Z - info: [ui] [Timing] Action 'create commit' for 'manufigu/5is18b-M143_JMS' took 0.209s
+2020-06-26T13:34:42.348Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: 5is18b-M143_JMS - debalti (has token)
+2020-06-26T13:34:47.024Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin master:master --progress (took 4.653s)
+2020-06-26T13:34:48.261Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.206s)
