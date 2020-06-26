@@ -27,7 +27,7 @@ public class MyPreparedStatement {
             prSt.setInt(2, 5000);
             count = prSt.executeUpdate();
         } catch (ClassNotFoundException e) {
-            // TODO Auto-generated catch block
+            // TODO Auto-generated catch block Manuel Figueiredo
             e.printStackTrace();
         } catch (SQLException e) {
             // TODO Auto-generated catch block
